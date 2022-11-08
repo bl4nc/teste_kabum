@@ -10,6 +10,6 @@ app.use(cors())
 
 app.use(routes);
 
-app.listen(process.env.PORT, () => console.log(`Server is run ${process.env.PORT}`));
+app.listen(process.env.PORT ?? 3000, () => console.log(`Server is run ${process.env.PORT ?? 3000}`));
 
 export default app 
