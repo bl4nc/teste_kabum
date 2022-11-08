@@ -1,8 +1,8 @@
 import { ShippingRules } from "./ShippingRules";
 
-interface Delivery {
+interface DeliveryCompany {
     name: string;
     rules: ShippingRules
 }
 
-export { Delivery }
+export { DeliveryCompany }

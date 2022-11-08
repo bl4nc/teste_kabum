@@ -1,6 +1,6 @@
-import { Delivery } from "../model/Delivery";
+import { DeliveryCompany } from "../model/DeliveryCompany";
 
-export const deliveries_types: Delivery[] = [
+export const deliveries_companies: DeliveryCompany[] = [
     {
         name: 'Entrega Ninja',
         rules: {
